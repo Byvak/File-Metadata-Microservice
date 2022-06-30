@@ -6,6 +6,8 @@ require('dotenv').config()
 
 var app = express();
 
+//Really love this
+
 app.use(cors());
 app.use('/public', express.static(process.cwd() + '/public'));
 
